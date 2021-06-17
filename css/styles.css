@@ -138,4 +138,16 @@ color: rgba(255, 255, 255, 0.6);
 .address-link:focus {
   color: #2196f3;
 }
-
+/* ============ styles for PAGE portfolio ============ */
+.modal-btn-portfolio {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus {
+  color: #FFFFFF;
+}
