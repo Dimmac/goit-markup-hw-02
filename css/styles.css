@@ -7,7 +7,7 @@ list-style: none;
 text-decoration: none;
 }
 body {
-font-family: "Roboto", "Raleway",'Open Sans', 'Helvetica Neue' sans-serif;
+font-family: "Roboto", "Raleway",'Open Sans', 'Helvetica Neue', sans-serif;
 background-color: teal;
 }
 /* ============ styles for header ============ */
