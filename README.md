@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-вивчення CSS
+# goit-markup-hw-01
+ДЗ№1 Лоївський Дмитро
