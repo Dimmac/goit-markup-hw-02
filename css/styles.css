@@ -7,7 +7,7 @@ list-style: none;
 text-decoration: none;
 }
 body {
-font-family: "Roboto", "Raleway", sans-serif;
+font-family: "Roboto", "Raleway",'Open Sans', 'Helvetica Neue' sans-serif;
 background-color: teal;
 }
 /* ============ styles for header ============ */
@@ -23,8 +23,10 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196f3;
 }
+.header-studio {
+  color: #000000;
+}
 .nav-list-item {
-font-family: "Roboto";
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -36,7 +38,6 @@ color: #212121;
 color: #2196f3;
 }
 .contact-list-item {
-font-family: "Roboto";
 font-style: 400;
 font-weight: 500;
 font-size: 14px;
@@ -49,9 +50,7 @@ color: #757575;
 color: #2196f3;
 }
 /* ============ styles for hero ============ */
-/* i have a problem */
 .hero-title {
-font-family: "Roboto";
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -60,7 +59,6 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .modal-btn {
-font-family: "Roboto";
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -72,7 +70,6 @@ cursor: pointer;
 .methods-list-item {
 }
 .methods-list-item-title {
-font-family: "Roboto";
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -81,8 +78,6 @@ text-transform: uppercase;
 color: #212121;
 }
 .methods-list-item-text {
-font-family: "Roboto";
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -90,7 +85,6 @@ color: #757575;
 }
 /* ============ styles for tasks ============ */
 .tasks-title {
-font-family: "Roboto";
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -99,7 +93,6 @@ color: #212121;
 }
 /* ============ styles for comand ============ */
 .comand-title {
-font-family: "Roboto";
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -107,7 +100,6 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .comand-list-item-title {
-font-family: "Roboto";
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
@@ -115,28 +107,35 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 .comand-list-item-text {
-font-family: "Roboto";
-font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: #757575;
 }
 /* ============ styles for footer ============ */
+.footer-studio {
+  color: #FFFFFF;
+}
 .geoposition {
-font-family: "Roboto";
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #ffffff;
 }
+.geoposition:hover,
+.geoposition:focus {
+  color: #2196f3;
+}
 .address-link {
-font-family: "Roboto";
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+.address-link:hover,
+.address-link:focus {
+  color: #2196f3;
 }
 
