@@ -11,10 +11,6 @@ font-family: "Roboto", "Raleway",'Open Sans', 'Helvetica Neue', sans-serif;
 background-color: teal;
 }
 /* ============ styles for header ============ */
-.page-head {
-}
-.navigation {
-}
 .logo {
 font-family: "Raleway";
 font-weight: 700;
@@ -26,16 +22,19 @@ color: #2196f3;
 .header-studio {
   color: #000000;
 }
+.nav-list-item:hover,
+.nav-list-item:focus {
+color: #2196f3;
+}
+.site-nav .nav-list-item.current {
+  color: #2196f3;
+}
 .nav-list-item {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
-}
-.nav-list-item:hover,
-.nav-list-item:focus {
-color: #2196f3;
 }
 .contact-list-item {
 font-style: 400;
@@ -67,8 +66,6 @@ color: #ffffff;
 cursor: pointer;
 }
 /* ============ styles for our_methods ============ */
-.methods-list-item {
-}
 .methods-list-item-title {
 font-weight: 700;
 font-size: 14px;
