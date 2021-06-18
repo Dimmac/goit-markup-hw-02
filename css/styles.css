@@ -151,3 +151,17 @@ color: #212121;
 .modal-btn-portfolio:focus {
   color: #FFFFFF;
 }
+.menu-list h3 {
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.menu-list p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
