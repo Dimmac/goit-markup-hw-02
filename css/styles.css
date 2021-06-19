@@ -1,4 +1,10 @@
 /* ============ styles for root ============ */
+/* цвет заголовков #212121 */
+/* цвет абзацев #757575 */
+:root {
+--title-textcolor: #212121;
+--paragraph-textcolor: #757575;
+}
 /* ============ styles for body ============ */
 .list {
 list-style: none;
@@ -7,10 +13,12 @@ list-style: none;
 text-decoration: none;
 }
 body {
-font-family: "Roboto", "Raleway",'Open Sans', 'Helvetica Neue', sans-serif;
-background-color: teal;
+font-family: "Roboto", "Raleway", sans-serif;
 }
 /* ============ styles for header ============ */
+.nav-section {
+  background-color: #FFFFFF;
+}
 .logo {
 font-family: "Raleway";
 font-weight: 700;
@@ -49,6 +57,9 @@ color: #757575;
 color: #2196f3;
 }
 /* ============ styles for hero ============ */
+.hero-section {
+  background-color: #2F303A;
+}
 .hero-title {
 font-weight: 900;
 font-size: 44px;
@@ -64,6 +75,10 @@ line-height: 1.87;
 letter-spacing: 0.06em;
 color: #ffffff;
 cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+background-color: #2196F3;
 }
 /* ============ styles for our_methods ============ */
 .methods-list-item-title {
@@ -88,28 +103,34 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 color: #212121;
 }
-/* ============ styles for comand ============ */
-.comand-title {
+/* ============ styles for command ============ */
+.command-section {
+  background-color: #F5F4FA;
+}
+.command-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: #212121;
 }
-.comand-list-item-title {
+.command-list-item-title {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: #212121;
 }
-.comand-list-item-text {
+.command-list-item-text {
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: #757575;
 }
 /* ============ styles for footer ============ */
+.footer-section {
+background-color: #000000;
+}
 .footer-studio {
   color: #FFFFFF;
 }
@@ -147,6 +168,8 @@ color: #212121;
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
   color: #FFFFFF;
+  background-color: #2196F3;
+  cursor: pointer;
 }
 .menu-list h3 {
 font-weight: bold;
