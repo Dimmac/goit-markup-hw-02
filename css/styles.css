@@ -42,7 +42,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--title-textcolor);
 }
 .contact-list-item {
 font-style: 400;
@@ -50,7 +50,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--paragraph-textcolor);
 }
 .contact-list-item:hover,
 .contact-list-item:focus {
@@ -81,27 +81,34 @@ cursor: pointer;
 background-color: #2196F3;
 }
 /* ============ styles for our_methods ============ */
+.our-methods-tasks-section {
+  background-color: #E5E5E5;
+}
+.our-methods-section {
+}
 .methods-list-item-title {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--title-textcolor);
 }
 .methods-list-item-text {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--paragraph-textcolor);
 }
 /* ============ styles for tasks ============ */
+.tasks-section {
+}
 .tasks-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-textcolor);
 }
 /* ============ styles for command ============ */
 .command-section {
@@ -112,20 +119,20 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-textcolor);
 }
 .command-list-item-title {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-textcolor);
 }
 .command-list-item-text {
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--paragraph-textcolor);
 }
 /* ============ styles for footer ============ */
 .footer-section {
@@ -163,7 +170,7 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-textcolor);
 }
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
@@ -176,12 +183,12 @@ font-weight: bold;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--title-textcolor);
 }
 .menu-list p {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--paragraph-textcolor);
 }
