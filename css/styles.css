@@ -1,9 +1,13 @@
 /* ============ styles for root ============ */
 /* цвет заголовков #212121 */
 /* цвет абзацев #757575 */
+/* посвечивание активных страниц, а также при ховере и фокусе цвет #2196f3*/
+/* цвет #FFFFFF изменение цвета текста при ховере и фокусе; цвет фона блока "навигация" */
 :root {
 --title-textcolor: #212121;
 --paragraph-textcolor: #757575;
+--theme-textcolor: #2196f3;
+--hover-textcolor: #FFFFFF;
 }
 /* ============ styles for body ============ */
 .list {
@@ -13,11 +17,11 @@ list-style: none;
 text-decoration: none;
 }
 body {
-font-family: "Roboto", "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;
 }
 /* ============ styles for header ============ */
 .nav-section {
-  background-color: #FFFFFF;
+  background-color: var(--hover-textcolor);
 }
 .logo {
 font-family: "Raleway";
@@ -25,17 +29,17 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2196f3;
+color: var(--theme-textcolor);
 }
 .header-studio {
   color: #000000;
 }
 .nav-list-item:hover,
 .nav-list-item:focus {
-color: #2196f3;
+color: var(--theme-textcolor);
 }
 .site-nav .nav-list-item.current {
-  color: #2196f3;
+  color: var(--theme-textcolor);
 }
 .nav-list-item {
 font-weight: 500;
@@ -54,7 +58,7 @@ color: var(--paragraph-textcolor);
 }
 .contact-list-item:hover,
 .contact-list-item:focus {
-color: #2196f3;
+color: var(--theme-textcolor);
 }
 /* ============ styles for hero ============ */
 .hero-section {
@@ -66,19 +70,17 @@ font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--hover-textcolor);
 }
 .modal-btn {
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
-color: #ffffff;
+color: var(--hover-textcolor);
+background-color: var(--theme-textcolor);
+font-family: inherit;
 cursor: pointer;
-}
-.modal-btn:hover,
-.modal-btn:focus {
-background-color: #2196F3;
 }
 /* ============ styles for our_methods ============ */
 .our-methods-tasks-section {
@@ -139,18 +141,21 @@ color: var(--paragraph-textcolor);
 background-color: #000000;
 }
 .footer-studio {
-  color: #FFFFFF;
+  color: var(--hover-textcolor);
+}
+.address-list {
+  font-style: inherit;
 }
 .geoposition {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #ffffff;
+color: var(--hover-textcolor);
 }
 .geoposition:hover,
 .geoposition:focus {
-  color: #2196f3;
+  color: var(--theme-textcolor);
 }
 .address-link {
 font-weight: 400;
@@ -161,7 +166,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 .address-link:hover,
 .address-link:focus {
-  color: #2196f3;
+  color: var(--theme-textcolor);
 }
 /* ============ styles for PAGE portfolio ============ */
 .modal-btn-portfolio {
@@ -170,16 +175,17 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
+font-family: inherit;
 color: var(--title-textcolor);
 }
 .modal-btn-portfolio:hover,
 .modal-btn-portfolio:focus {
-  color: #FFFFFF;
-  background-color: #2196F3;
+  color: var(--hover-textcolor);
+  background-color: var(--theme-textcolor);
   cursor: pointer;
 }
 .menu-list h3 {
-font-weight: bold;
+font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
