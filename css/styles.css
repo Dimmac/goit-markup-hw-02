@@ -198,3 +198,7 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--paragraph-textcolor);
 }
+.btn-portfolio .modal-btn-portfolio.current {
+  background-color: var(--theme-textcolor);
+  color: var(--hover-textcolor);
+}
