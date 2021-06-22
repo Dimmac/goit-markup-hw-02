@@ -6,7 +6,7 @@
 /* цвет #FFFFFF изменение цвета текста при ховере и фокусе; цвет фона блока "навигация" */
 /* цвет фона героя и футера 2F303A */
 /* цвет фона секции "команда" */
-/* цвет текста с прозрачностью в футере */
+/* цвет текста с прозрачностью в футере rgba(255, 255, 255, 0.6)*/
 :root {
 --logo-black-textcolor: #000000;
 --title-textcolor: #212121;
@@ -48,19 +48,16 @@ color: var(--theme-textcolor);
 .site-nav .nav-list-item.current {
   color: var(--theme-textcolor);
 }
-.nav-list-item {
+.nav-list-item, .contact-list-item {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+}
+.nav-list-item {
 color: var(--title-textcolor);
 }
 .contact-list-item {
-font-style: 400;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
 color: var(--paragraph-textcolor);
 }
 .contact-list-item:hover,
@@ -107,20 +104,12 @@ letter-spacing: 0.03em;
 color: var(--paragraph-textcolor);
 }
 /* ============ styles for tasks ============ */
-.tasks-section {
-}
-.tasks-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: var(--title-textcolor);
-}
+
 /* ============ styles for command ============ */
 .command-section {
   background-color: var(--command-section-background-color);
 }
-.command-title {
+.tasks-command-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -150,11 +139,13 @@ background-color: var(--main-background-color);
 .address-list {
   font-style: inherit;
 }
-.geoposition {
+.geoposition, .address-link {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+}
+.geoposition {
 color: var(--hover-textcolor);
 }
 .geoposition:hover,
@@ -162,10 +153,6 @@ color: var(--hover-textcolor);
   color: var(--theme-textcolor);
 }
 .address-link {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
 color: var(--footer-contacts-textcolor)
 }
 .address-link:hover,
